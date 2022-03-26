@@ -29,3 +29,7 @@ Route::middleware('auth')
         Route::resource('/posts', 'PostController');
         
     });
+    //frontoffice
+    Route::get("{any?}", function() {
+        return view('front');
+    })->where("any",".*");
