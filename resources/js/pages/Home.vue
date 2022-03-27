@@ -20,5 +20,10 @@ export default{
     display: flex;
     flex-direction: column;
     align-items: center;
+    h1{
+        text-transform: uppercase;
+        color: rgb(8, 101, 189);
+        font-size: 50px;
+    }
 }
 </style>
