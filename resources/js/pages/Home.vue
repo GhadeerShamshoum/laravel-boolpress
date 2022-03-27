@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="containerMain">
         <h1>Home Page</h1>
         <Posts/>
     </div>  
@@ -16,4 +16,9 @@ export default{
 </script>
 
 <style lang="scss" scoped>
+.containerMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 </style>

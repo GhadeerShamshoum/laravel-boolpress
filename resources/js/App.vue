@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bgColor">
       <Header/>
       <Main/>
       <Footer/>
@@ -22,6 +22,10 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+.bgColor{
+    background-color: rgb(187, 184, 184);
+}
+
 
 </style>
