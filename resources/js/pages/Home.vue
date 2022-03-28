@@ -22,7 +22,7 @@ export default{
     align-items: center;
     h1{
         text-transform: uppercase;
-        color: rgb(8, 101, 189);
+        color: #4095e0;
         font-size: 50px;
     }
 }
