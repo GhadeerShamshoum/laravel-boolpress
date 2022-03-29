@@ -19,11 +19,15 @@ export default{
 <style lang="scss" scoped>
 .containerAbout{
     background-color: white;
-    height: 100vh;
+    width: 900px;
+    margin: 90px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    p{
+        padding: 10px;
+    }
 }
 
 </style>

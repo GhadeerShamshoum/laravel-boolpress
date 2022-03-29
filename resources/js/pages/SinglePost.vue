@@ -43,12 +43,13 @@ export default{
 <style lang="scss" scoped>
 .container{
     background-color: white;
-    width: 100%;
+    width: 700px;
+    margin-top:120px ;
     display: flex;
     flex-direction: column;
     align-items: center;
     .post{
-        width: 1000px;
+        width: 700px;
         h1{
             text-align: center;
         }
@@ -62,7 +63,10 @@ export default{
         }
         .textContainer{
             width: 600px;
-            margin:10px auto;
+            margin:20px auto;
+            .content{
+                margin: 20px 0;
+            }
             .category{
                 background-color: yellow;
                 padding: 5px;
@@ -76,7 +80,7 @@ export default{
             }
             .tags{
                 list-style: none;
-                margin: 10px 0;
+                margin: 20px 0;
                 padding: 0;
                 display: flex;
                 .tag{

@@ -2091,7 +2091,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Home",
@@ -2189,7 +2188,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, ".bgColor[data-v-f348271a] {\n  background-color: #bbb8b8;\n}", ""]);
+exports.push([module.i, ".bgColor[data-v-f348271a] {\n  background-color: #d6d3d3;\n  min-height: 100vh;\n}", ""]);
 
 // exports
 
@@ -2208,7 +2207,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "header[data-v-1f42fb90] {\n  height: 90px;\n  width: 100%;\n  background-color: white;\n  position: fixed;\n  top: 0;\n}\nheader nav[data-v-1f42fb90] {\n  width: 90%;\n  height: 100%;\n  margin: auto;\n  display: flex;\n}\nheader nav li[data-v-1f42fb90] {\n  height: 100%;\n  line-height: 90px;\n  margin: 0 10px;\n  list-style: none;\n  text-decoration: none;\n}", ""]);
+exports.push([module.i, "header[data-v-1f42fb90] {\n  height: 90px;\n  width: 100%;\n  background-color: white;\n  position: fixed;\n  top: 0;\n}\nheader nav[data-v-1f42fb90] {\n  width: 90%;\n  height: 100%;\n  margin: auto;\n  display: flex;\n}\nheader nav li[data-v-1f42fb90] {\n  line-height: 90px;\n  margin: 0 20px;\n  list-style: none;\n  text-decoration: none;\n  cursor: pointer;\n}\nheader nav li[data-v-1f42fb90]:hover {\n  border-bottom: 4px solid #31a6c4;\n}\nheader nav li:hover .link[data-v-1f42fb90] {\n  color: #31a6c4;\n}\nheader nav li .link[data-v-1f42fb90] {\n  text-decoration: none;\n  color: black;\n  height: 100%;\n  text-transform: uppercase;\n  font-family: \"Franklin Gothic Medium\", \"Arial Narrow\", Arial, sans-serif;\n  font-weight: 800;\n}", ""]);
 
 // exports
 
@@ -2227,7 +2226,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".container[data-v-4ac4d2f8] {\n  width: 1300px;\n  display: flex;\n  justify-content: center;\n  flex-wrap: wrap;\n}\n.container .post[data-v-4ac4d2f8] {\n  background-color: white;\n  width: 350px;\n  margin: 10px;\n  padding: 10px;\n}\n.container .post .title[data-v-4ac4d2f8] {\n  font-size: 22px;\n  margin: 10px 0;\n}\n.container .post .category[data-v-4ac4d2f8] {\n  background-color: yellow;\n  padding: 5px;\n  width: 80px;\n  margin: 10px 0;\n  border-radius: 20px;\n  text-align: center;\n}\n.container .post .category .categoryName[data-v-4ac4d2f8] {\n  font-weight: bold;\n}\n.container .post .tags[data-v-4ac4d2f8] {\n  list-style: none;\n  margin: 10px 0;\n  padding: 0;\n  display: flex;\n}\n.container .post .tags .tag[data-v-4ac4d2f8] {\n  padding: 5px;\n  background-color: #59b6d4;\n  color: white;\n  margin: 0 5px;\n  border-radius: 5px;\n  font-size: 10px;\n  font-weight: bold;\n}\n.container .post .imgContainer[data-v-4ac4d2f8] {\n  width: 100%;\n  height: 190px;\n  overflow: hidden;\n}\n.container .post .imgContainer img[data-v-4ac4d2f8] {\n  width: 100%;\n}", ""]);
+exports.push([module.i, ".container[data-v-4ac4d2f8] {\n  width: 1300px;\n  display: flex;\n  justify-content: center;\n  flex-wrap: wrap;\n  margin-top: 20px;\n}\n.container .post[data-v-4ac4d2f8] {\n  background-color: white;\n  width: 350px;\n  margin: 10px;\n  padding: 10px;\n}\n.container .post .title[data-v-4ac4d2f8] {\n  font-size: 22px;\n  margin: 10px 0;\n}\n.container .post .category[data-v-4ac4d2f8] {\n  background-color: yellow;\n  padding: 5px;\n  width: 80px;\n  margin: 10px 0;\n  border-radius: 20px;\n  text-align: center;\n}\n.container .post .category .categoryName[data-v-4ac4d2f8] {\n  font-weight: bold;\n}\n.container .post .tags[data-v-4ac4d2f8] {\n  list-style: none;\n  margin: 10px 0;\n  padding: 0;\n  display: flex;\n}\n.container .post .tags .tag[data-v-4ac4d2f8] {\n  padding: 5px;\n  background-color: #59b6d4;\n  color: white;\n  margin: 0 5px;\n  border-radius: 5px;\n  font-size: 10px;\n  font-weight: bold;\n}\n.container .post .imgContainer[data-v-4ac4d2f8] {\n  width: 100%;\n  height: 190px;\n  overflow: hidden;\n}\n.container .post .imgContainer img[data-v-4ac4d2f8] {\n  width: 100%;\n}", ""]);
 
 // exports
 
@@ -2246,7 +2245,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".containerAbout[data-v-520b5d54] {\n  background-color: white;\n  height: 100vh;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n}", ""]);
+exports.push([module.i, ".containerAbout[data-v-520b5d54] {\n  background-color: white;\n  width: 900px;\n  margin: 90px 0;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n}\n.containerAbout p[data-v-520b5d54] {\n  padding: 10px;\n}", ""]);
 
 // exports
 
@@ -2265,7 +2264,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".containerMain[data-v-b3c5cf30] {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n.containerMain h1[data-v-b3c5cf30] {\n  text-transform: uppercase;\n  color: #4095e0;\n  font-size: 50px;\n}", ""]);
+exports.push([module.i, ".containerMain[data-v-b3c5cf30] {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}", ""]);
 
 // exports
 
@@ -2284,7 +2283,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".container[data-v-67cb3b51] {\n  background-color: white;\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n.container .post[data-v-67cb3b51] {\n  width: 1000px;\n}\n.container .post h1[data-v-67cb3b51] {\n  text-align: center;\n}\n.container .post .imgContainer[data-v-67cb3b51] {\n  width: 600px;\n  margin: auto;\n}\n.container .post .imgContainer img[data-v-67cb3b51] {\n  width: 100%;\n}\n.container .post .textContainer[data-v-67cb3b51] {\n  width: 600px;\n  margin: 10px auto;\n}\n.container .post .textContainer .category[data-v-67cb3b51] {\n  background-color: yellow;\n  padding: 5px;\n  width: 80px;\n  margin: 10px 0;\n  border-radius: 20px;\n  text-align: center;\n}\n.container .post .textContainer .category .categoryName[data-v-67cb3b51] {\n  font-weight: bold;\n}\n.container .post .textContainer .tags[data-v-67cb3b51] {\n  list-style: none;\n  margin: 10px 0;\n  padding: 0;\n  display: flex;\n}\n.container .post .textContainer .tags .tag[data-v-67cb3b51] {\n  padding: 5px;\n  background-color: #59b6d4;\n  color: white;\n  margin: 0 5px;\n  border-radius: 5px;\n  font-size: 10px;\n  font-weight: bold;\n}", ""]);
+exports.push([module.i, ".container[data-v-67cb3b51] {\n  background-color: white;\n  width: 700px;\n  margin-top: 120px;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n.container .post[data-v-67cb3b51] {\n  width: 700px;\n}\n.container .post h1[data-v-67cb3b51] {\n  text-align: center;\n}\n.container .post .imgContainer[data-v-67cb3b51] {\n  width: 600px;\n  margin: auto;\n}\n.container .post .imgContainer img[data-v-67cb3b51] {\n  width: 100%;\n}\n.container .post .textContainer[data-v-67cb3b51] {\n  width: 600px;\n  margin: 20px auto;\n}\n.container .post .textContainer .content[data-v-67cb3b51] {\n  margin: 20px 0;\n}\n.container .post .textContainer .category[data-v-67cb3b51] {\n  background-color: yellow;\n  padding: 5px;\n  width: 80px;\n  margin: 10px 0;\n  border-radius: 20px;\n  text-align: center;\n}\n.container .post .textContainer .category .categoryName[data-v-67cb3b51] {\n  font-weight: bold;\n}\n.container .post .textContainer .tags[data-v-67cb3b51] {\n  list-style: none;\n  margin: 20px 0;\n  padding: 0;\n  display: flex;\n}\n.container .post .textContainer .tags .tag[data-v-67cb3b51] {\n  padding: 5px;\n  background-color: #59b6d4;\n  color: white;\n  margin: 0 5px;\n  border-radius: 5px;\n  font-size: 10px;\n  font-weight: bold;\n}", ""]);
 
 // exports
 
@@ -2303,7 +2302,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nmain[data-v-b9c20fb8]{\r\n  margin-top: 90px;\n}\r\n\r\n", ""]);
+exports.push([module.i, "\nmain[data-v-b9c20fb8]{\r\n  margin-top: 90px;\r\n  display: flex;\r\n  justify-content: center;\n}\r\n\r\n", ""]);
 
 // exports
 
@@ -3657,9 +3656,11 @@ var render = function () {
       _c(
         "li",
         [
-          _c("router-link", { attrs: { to: { name: "home" } } }, [
-            _vm._v("Home"),
-          ]),
+          _c(
+            "router-link",
+            { staticClass: "link", attrs: { to: { name: "home" } } },
+            [_vm._v("Home")]
+          ),
         ],
         1
       ),
@@ -3667,9 +3668,11 @@ var render = function () {
       _c(
         "li",
         [
-          _c("router-link", { attrs: { to: { name: "About" } } }, [
-            _vm._v("About us"),
-          ]),
+          _c(
+            "router-link",
+            { staticClass: "link", attrs: { to: { name: "About" } } },
+            [_vm._v("About us")]
+          ),
         ],
         1
       ),
@@ -3849,12 +3852,7 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    { staticClass: "containerMain" },
-    [_c("h1", [_vm._v("Home Page")]), _vm._v(" "), _c("Posts")],
-    1
-  )
+  return _c("div", { staticClass: "containerMain" }, [_c("Posts")], 1)
 }
 var staticRenderFns = []
 render._withStripped = true

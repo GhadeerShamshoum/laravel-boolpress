@@ -42,6 +42,7 @@ export default{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 20px;
     
     .post{
         background-color: white;

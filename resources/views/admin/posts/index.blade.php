@@ -2,7 +2,7 @@
 
 
     @section('content')
-    <a href="{{route("admin.posts.create")}}"><button type="button" class="btn  btn-warning">add</button></a>
+    <a href="{{route("admin.posts.create")}}"><button type="button" class="btn btn-warning">add a post</button></a>
         
     <table class="table">
       <thead>

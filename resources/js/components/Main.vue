@@ -18,6 +18,8 @@ export default {
 <style scoped>
 main{
   margin-top: 90px;
+  display: flex;
+  justify-content: center;
 }
 
 </style>

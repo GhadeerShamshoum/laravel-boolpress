@@ -24,7 +24,8 @@ export default {
 
 <style lang="scss" scoped>
 .bgColor{
-    background-color: rgb(187, 184, 184);
+    background-color: rgb(214, 211, 211);
+    min-height: 100vh;
 }
 
 

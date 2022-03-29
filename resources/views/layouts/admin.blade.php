@@ -72,7 +72,7 @@
             </div>
         </nav>
         <div>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="d-flex justify-content-center col-12">
                     <ul class="list-unstyled p-0 my-5 col-1">
@@ -92,7 +92,6 @@
                                 </svg>
                                 Posts
                             </a>
-        
                         </li>
                     </ul>
                         
@@ -100,7 +99,7 @@
                         <div class="container-fluid">
                             <div class="row d-flex justify-content-center">
                                 <div class="col-12 d-flex justify-content-center flex-column">
-                                    <h1 class="font-weight-bold text-uppercase text-danger my-3 text-center bg-info p-5">Posts</h1> 
+                                    <h1><strong> Posts</strong></h1> 
                                         <div>
                                             @yield('content')
                                         </div>

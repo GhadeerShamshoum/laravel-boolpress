@@ -1,6 +1,5 @@
 <template>
     <div class="containerMain">
-        <h1>Home Page</h1>
         <Posts/>
     </div>  
 </template>
@@ -20,10 +19,6 @@ export default{
     display: flex;
     flex-direction: column;
     align-items: center;
-    h1{
-        text-transform: uppercase;
-        color: #4095e0;
-        font-size: 50px;
-    }
+ 
 }
 </style>

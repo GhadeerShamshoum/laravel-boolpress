@@ -1,8 +1,8 @@
 <template>
   <header>
     <nav>
-      <li><router-link :to="{ name: 'home'}">Home</router-link></li>
-      <li><router-link :to="{ name: 'About'}">About us</router-link></li>
+      <li><router-link class="link" :to="{ name: 'home'}">Home</router-link></li>
+      <li><router-link class="link" :to="{ name: 'About'}">About us</router-link></li>
     </nav>
   </header>
 </template>
@@ -29,11 +29,25 @@ header{
     margin: auto;
     display: flex;
     li{
-      height: 100%;
       line-height: 90px;
-      margin: 0 10px;
+      margin: 0 20px;
       list-style: none;
       text-decoration: none;
+      cursor: pointer;
+        &:hover{
+          border-bottom: 4px solid rgb(49, 166, 196);
+        }
+        &:hover .link{
+          color: rgb(49, 166, 196);
+        }
+      .link{
+        text-decoration: none;
+        color:black;
+        height: 100%;
+        text-transform: uppercase;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 800;
+      }
     }
   
 
